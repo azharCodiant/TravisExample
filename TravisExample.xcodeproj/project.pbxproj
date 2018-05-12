@@ -79,7 +79,7 @@
 		77C5FCC120A6B5C400A6867F = {
 			isa = PBXGroup;
 			children = (
-				77C5FCFB20A6B5EE00A6867F /* Travis */,
+				77C5FCFC20A6B62A00A6867F /* .travis.yml */,
 				77C5FCCC20A6B5C400A6867F /* TravisExample */,
 				77C5FCE120A6B5C500A6867F /* TravisExampleTests */,
 				77C5FCEC20A6B5C500A6867F /* TravisExampleUITests */,
@@ -126,14 +126,6 @@
 				77C5FCEF20A6B5C500A6867F /* Info.plist */,
 			);
 			path = TravisExampleUITests;
-			sourceTree = "<group>";
-		};
-		77C5FCFB20A6B5EE00A6867F /* Travis */ = {
-			isa = PBXGroup;
-			children = (
-				77C5FCFC20A6B62A00A6867F /* .travis.yml */,
-			);
-			path = Travis;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
