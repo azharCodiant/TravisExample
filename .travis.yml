@@ -1,4 +1,4 @@
 language: objective-c
 osx_image: xcode9
 script:
-- xcodebuild clean test -project TravisExample.xcodeproj -scheme TravisExample -destination "platform=iOS Simulator, id=dvtdevice-DVTiOSDeviceSimulatorPlaceholder-iphonesimulator:placeholder, name=Generic iOS Simulator Device" CODE_SIGN_IDENTITY="" CODE_SIGNING_REQUIRED=NO ONLY_ACTIVE_ARCH=NO -quiet 
+- xcodebuild clean test -project TravisExample.xcodeproj -scheme TravisExample -destination "platform=iOS Simulator, id:2BB159E6-E3A8-4DF5-8882-5E3B75679E41,name=iPhone 5s,OS=11.2" CODE_SIGN_IDENTITY="" CODE_SIGNING_REQUIRED=NO ONLY_ACTIVE_ARCH=NO -quiet
